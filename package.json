@@ -13,7 +13,6 @@
     "@pixi/react": "^7.1.2",
     "feather-icons-react": "^0.7.0",
     "lodash": "^4.17.21",
-    "motion": "^11.11.17",
     "pixi.js": "^7.4.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
