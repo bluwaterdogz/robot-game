@@ -1,0 +1,21 @@
+@import '../../styles/variables';
+.button {
+  background-color: $highlight-color;
+  color: white;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 0.9285714285714286rem;
+  line-height: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 0.5rem 1rem;
+  transition: 0.2s;
+  box-shadow: $shadow;
+  &:hover {
+    background-color: rgb(199 87 36);
+  }
+  &:active {
+    transform: scale(0.99);
+  }
+}
