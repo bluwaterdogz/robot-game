@@ -1,9 +1,9 @@
-@import '../../styles/variables';
-@import '../../styles/animations';
+@use '../../styles/variables';
+@use '../../styles/animations';
 .board {
   display: flex;
   flex-direction: column;
-  gap: $space;
+  gap: variables.$space;
 }
 .gridContainer {
   height: auto;
@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 0;
-  box-shadow: $shadow;
+  box-shadow: variables.$shadow;
   background-color: white;
   display: flex;
 }

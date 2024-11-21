@@ -1,5 +1,5 @@
-@import '../../styles/variables';
-@import '../../styles/animations';
+@use '../../styles/variables';
+@use '../../styles/animations';
 .homeContainer {
   height: 100vh;
   width: 100vw;
@@ -9,11 +9,11 @@
   flex-direction: column;
 }
 .header {
-  background-color: $primary-color;
-  height: $space * 30;
+  background-color: variables.$primary-color;
+  height: variables.$space * 30;
   width: 100%;
   color: white;
-  padding: $space;
+  padding: variables.$space;
   box-sizing: border-box;
   h1 {
     margin: 0;
@@ -26,7 +26,7 @@
   width: 100%;
   display: inline-flex;
   justify-content: center;
-  background-color: $secondary-background;
+  background-color: variables.$secondary-background;
 }
 .boardContainer {
   margin-top: 3rem;

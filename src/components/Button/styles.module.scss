@@ -1,6 +1,6 @@
-@import '../../styles/variables';
+@use '../../styles/variables';
 .button {
-  background-color: $highlight-color;
+  background-color: variables.$highlight-color;
   color: white;
   border: none;
   border-radius: 0.25rem;
@@ -11,7 +11,7 @@
   letter-spacing: 0.15em;
   padding: 0.5rem 1rem;
   transition: 0.2s;
-  box-shadow: $shadow;
+  box-shadow: variables.$shadow;
   &:hover {
     background-color: rgb(199 87 36);
   }

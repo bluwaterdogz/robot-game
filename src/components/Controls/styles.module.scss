@@ -1,17 +1,17 @@
-@import '../../styles/variables';
-@import '../../styles/animations';
+@use '../../styles/variables';
+@use '../../styles/animations';
 .controls {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: $space;
+  gap: variables.$space;
 }
 .icon {
   display: inline-block;
-  padding: $space;
-  margin: $space;
-  transition: $transition;
+  padding: variables.$space;
+  margin: variables.$space;
+  transition: variables.$transition;
   opacity: 0.2;
   width: 30px;
   &.active {
