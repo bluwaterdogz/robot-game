@@ -5,7 +5,7 @@ interface RobotProps {
   imgUrl?: string;
 }
 
-export const Robot = ({ imgUrl = './public/robot.png' }: RobotProps): any => {
+export const Robot = ({ imgUrl = './robot-min.png' }: RobotProps): any => {
   const { position, cellSize, angle } = usePositionStore();
   return (
     <Sprite

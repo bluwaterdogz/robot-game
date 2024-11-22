@@ -4,20 +4,12 @@ import styles from './styles.module.scss';
 import FeatherIcon from 'feather-icons-react';
 import { PositionEvent } from '../../stores/PositionStore/types';
 import { useObservable } from '../../hooks/useObservable';
+import { angleToIconMap } from './types';
 
 export const Controls = (): React.ReactNode => {
   const { turnRight, moveForward, angle, events$ } = usePositionStore();
 
-  const arrowIcon = useMemo(() => {
-    return (
-      {
-        0: 'arrow-right',
-        90: 'arrow-down',
-        180: 'arrow-left',
-        270: 'arrow-up',
-      }[angle] || 'arrow-right'
-    );
-  }, [angle]);
+  const arrowIcon = useMemo(() => angleToIconMap[angle] || 'arrow-right', [angle]);
 
   const onKeyDown = useCallback(
     (event: KeyboardEvent) => {

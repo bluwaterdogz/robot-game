@@ -1,15 +1,15 @@
-.imageContainer{
-    $dim:80px;
-    height:$dim;
-    width:$dim;
-    img{
-        height:100%;
-        width:100%;
-    }
+.imageContainer {
+  $dim: 80px;
+  height: $dim;
+  width: $dim;
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }
-.test{
-    $dim:80px;
-    height:$dim;
-    width:$dim;
-    background-color: blue;
+.test {
+  $dim: 80px;
+  height: $dim;
+  width: $dim;
+  background-color: blue;
 }

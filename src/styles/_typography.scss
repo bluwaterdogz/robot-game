@@ -1,7 +1,27 @@
-@mixin label(){
-    font-size: .9285714285714286rem;
-    line-height: 1.5rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .075em;
+@mixin directions() {
+  font-size: 0.9285714285714286rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+
+@mixin headerText() {
+  line-height: 4.5rem;
+  -webkit-font-smoothing: antialiased;
+  font-family: GTUltra, 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 40px;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+@mixin mainText() {
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 160%;
 }

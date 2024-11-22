@@ -10,4 +10,4 @@ export const StartingPosition: Position = {
   y: 0,
 };
 
-export const InitialCellSize = 65;
+export const InitialCellSize = 80;

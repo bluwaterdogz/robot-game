@@ -1,1 +1,1 @@
-export const PrimaryColor = 'rgb(136 178 171)';
+export const PrimaryColor = '#555F53';

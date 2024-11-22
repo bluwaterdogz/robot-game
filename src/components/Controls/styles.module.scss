@@ -6,16 +6,17 @@
   align-items: center;
   justify-content: center;
   gap: variables.$space;
+  user-select: none;
 }
 .icon {
   display: inline-block;
   padding: variables.$space;
   margin: variables.$space;
   transition: variables.$transition;
-  opacity: 0.2;
+  opacity: 0.3;
   width: 30px;
   &.active {
-    animation: text-focus-in 0.2s ease-in alternate;
+    animation: opacity-in-out 0.4s ease-in alternate;
   }
   &:hover {
     opacity: 1;
