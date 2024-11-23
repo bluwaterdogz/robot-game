@@ -4,7 +4,10 @@ import { Sprite } from '@pixi/react';
 interface RobotProps {
   imgUrl?: string;
 }
-
+/**
+ * Note: Normally would host the image elsewhere for laod times,
+ * but added to /public for expediency
+ */
 export const Robot = ({ imgUrl = './robot-min.png' }: RobotProps): any => {
   const { position, cellSize, angle } = usePositionStore();
   return (

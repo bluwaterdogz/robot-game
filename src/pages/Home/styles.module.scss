@@ -34,6 +34,26 @@ h1 {
   max-width: variables.$readable-width;
   text-align: center;
 }
+.langLinkList {
+  position: absolute;
+  top: variables.$space;
+  left: variables.$space;
+}
+.langLink {
+  display: inline-block;
+  margin-right: variables.$space;
+  transition: variables.$transition;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+  &:hover {
+    color: rgba(200, 200, 200, 1);
+    transform: scale(1.2);
+  }
+}
+.titleContainer {
+  min-height: 160px;
+}
 .contents {
   height: 100%;
   width: 100%;
